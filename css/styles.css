@@ -35,7 +35,7 @@ body {
 }
 
 .bgLightGrey {
-    background-color: var(--light-grey-color);
+    background-color: var(--light-grey-color) !important;
 }
 
 .colorDark {
@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-    font-size: 66px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 80px;
 }
@@ -63,6 +63,7 @@ h5 {
 
 
 
+
 p {
     font-size: 18px;
     color: var(--dark-color);
@@ -76,7 +77,7 @@ a:hover {
 }
 
 .btn {
-    font-size: 14px;
+    font-size: 17px;
     padding: 15px 26px;
     min-width: 160px;
     border-radius: 2px;
@@ -120,7 +121,7 @@ a:hover {
 }
 
 .logo-brand {
-    max-width: 170px;
+    max-width: 150px;
     min-width: 70px;
 }
 
@@ -182,7 +183,7 @@ section {
 //////////////*/
 
 #hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/Swirling\ Stars\ and\ Space\ Video\ Zoom\ Virtual\ Background.gif);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -399,8 +400,19 @@ footer .list-inline .list-inline-item {
 
 @media (max-width: 575.98px) {
     h1 {
-        font-size: 40px;
-        line-height: normal;
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+
+    
+
+    .navbar {
+        min-height: 50px;
     }
 
     .portfolio-details h2 {
@@ -413,7 +425,7 @@ footer .list-inline .list-inline-item {
     }
 
     .carousel-item p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .footer-menu {
@@ -424,9 +436,14 @@ footer .list-inline .list-inline-item {
     }
 
     .logo-brand {
-        max-width: 180px;
+        max-width: 150px;
         min-width: 55px;
     }
+
+    /* .carousel-container .smaller{
+        font-size: small;
+    } */
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {}
