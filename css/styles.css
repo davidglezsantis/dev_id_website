@@ -27,7 +27,7 @@ body {
 }
 
 .bgDark {
-    background-color: var(--dark-color);
+    background-color: #dc3545;
 }
 
 .bgLight {
@@ -121,8 +121,8 @@ a:hover {
 }
 
 .logo-brand {
-    max-width: 150px;
-    min-width: 70px;
+    max-width: 70px;
+    min-width: 50px;
 }
 
 section {
@@ -183,7 +183,7 @@ section {
 //////////////*/
 
 #hero {
-    background-image: url(../images/Swirling\ Stars\ and\ Space\ Video\ Zoom\ Virtual\ Background.gif);
+    background-image: url(../images/header_r.png);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -394,13 +394,14 @@ footer .list-inline .list-inline-item {
     padding: 10px 15px;
 }
 
+
 /* //////////////
    Media queries
 //////////////*/
 
 @media (max-width: 575.98px) {
     h1 {
-        font-size: 55px;
+        font-size: 50px;
         line-height: 60px;
     }
 
@@ -427,7 +428,7 @@ footer .list-inline .list-inline-item {
     .carousel-item p {
         font-size: 18px;
     }
-
+    
     .footer-menu {
         display: block !important;
         padding: 20px 0 !important;
@@ -436,8 +437,8 @@ footer .list-inline .list-inline-item {
     }
 
     .logo-brand {
-        max-width: 150px;
-        min-width: 55px;
+        max-width: 70px;
+        min-width: 50px;
     }
 
     /* .carousel-container .smaller{
